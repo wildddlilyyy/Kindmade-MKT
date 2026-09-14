@@ -1,6 +1,6 @@
-# Kindmade SEO Report
+# Kindmade MKT Dashboard
 
-Kindmade SEO Report 是一個 Python SEO 爬蟲與報告產生工具，用來檢查同網域頁面的基礎 SEO 狀態，輸出 CSV、HTML dashboard，以及可部署到 GitHub Pages 的靜態報告資料。
+Kindmade MKT Dashboard 是一個整合行銷日曆與 SEO 報告的 GitHub Pages 專案。它包含 Python SEO 爬蟲與報告產生工具，可用來檢查同網域頁面的基礎 SEO 狀態，輸出 CSV、HTML dashboard，以及可部署到 GitHub Pages 的靜態報告資料。
 
 ## 專案內容
 
@@ -106,7 +106,7 @@ GitHub Pages 設定：
 
 發布網址：
 
-https://wildddlilyyy.github.io/Kindmade-SEO-Report/
+https://wildddlilyyy.github.io/Kindmade-MKT/
 
 ## 開發注意事項
 
