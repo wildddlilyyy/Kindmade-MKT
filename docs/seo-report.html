@@ -7,6 +7,7 @@
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",Arial,sans-serif;margin:0;color:#1f2933;background:#f6f7f9}
 header{background:#173f35;color:#fff;padding:36px 48px}main{padding:28px 48px 56px}h1{margin:0 0 8px;font-size:32px}h2{margin-top:34px;color:#173f35}.muted{color:#64748b}
+.home-link{display:inline-flex;align-items:center;gap:6px;margin-bottom:18px;padding:7px 12px;border:1px solid rgba(255,255,255,.42);border-radius:6px;color:#fff;font-size:13px;font-weight:700;text-decoration:none;background:rgba(255,255,255,.1)}.home-link:hover{background:rgba(255,255,255,.18);border-color:#fff}
 .toolbar{display:flex;gap:14px;align-items:end;flex-wrap:wrap;margin-top:22px}.control{display:flex;flex-direction:column;gap:6px}.control label{font-size:13px;color:#d7ede5}.control select{min-width:240px;border:1px solid #9bc5b6;border-radius:6px;padding:10px 12px;background:#fff;color:#173f35;font-size:15px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin:22px 0}.card{background:white;border:1px solid #e2e8f0;border-radius:8px;padding:18px}.label{color:#64748b;font-size:13px}.value{font-size:28px;font-weight:700;margin-top:6px}.report-card{cursor:pointer;transition:.15s border-color,.15s transform}.report-card:hover{border-color:#2f7d5f;transform:translateY(-1px)}.report-card.active{border-color:#173f35;box-shadow:0 0 0 2px #cde6db}.report-title{display:flex;align-items:center;gap:8px;font-weight:700;color:#173f35}.report-meta{margin-top:10px;color:#52616b;font-size:13px;line-height:1.6}
 .note{background:#fff;border-left:4px solid #2f7d5f;padding:14px 16px;margin:16px 0}.table-wrap{overflow:auto;max-height:720px;border:1px solid #d9e2ec;border-radius:8px;background:white}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid #e5e7eb;padding:10px 12px;text-align:left;vertical-align:top;line-height:1.55;max-width:360px;overflow-wrap:anywhere}th{position:sticky;top:0;background:#eef5f1;color:#173f35;z-index:1}tr:hover td{background:#fafafa}.url{min-width:260px;max-width:420px}.desc{min-width:280px;max-width:460px}.rec{min-width:300px;max-width:480px}.rec ul{margin:0;padding-left:18px}a{color:#116149;text-decoration:underline;text-underline-offset:2px}.pill{display:inline-block;border-radius:999px;padding:2px 8px;background:#e8f3ed;color:#173f35;font-size:12px}.latest{background:#ffe9b7;color:#6f4b00}.loading{padding:18px;background:white;border:1px solid #e2e8f0;border-radius:8px}.error{background:#fff1f2;border-left-color:#e11d48;color:#9f1239}
@@ -15,6 +16,7 @@ header{background:#173f35;color:#fff;padding:36px 48px}main{padding:28px 48px 56
 </head>
 <body>
 <header>
+  <a class="home-link" href="index.html">← 回首頁</a>
   <h1>Kindmade SEO 報告中心</h1>
   <div id="meta">載入中...</div>
   <div class="toolbar">
