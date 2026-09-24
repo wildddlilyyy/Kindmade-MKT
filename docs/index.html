@@ -164,12 +164,11 @@ h1{
 .article-content{
   min-width:0;
 }
-.article-label{
+.publish-date{
   margin-bottom:6px;
   color:#7a8792;
   font-size:12px;
   font-weight:700;
-  text-transform:uppercase;
 }
 .article-title{
   margin:0;
@@ -226,6 +225,25 @@ h1{
 .status-draft{
   color:#8a5a0a;
   background:#fff1d2;
+}
+.empty-state{
+  padding:34px 22px;
+  text-align:center;
+  background:#fbfcfa;
+  border:1px dashed #cbd8ce;
+  border-radius:8px;
+}
+.empty-state h3{
+  margin:0 0 8px;
+  color:var(--green);
+  font-size:18px;
+}
+.empty-state p{
+  max-width:620px;
+  margin:0 auto;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.7;
 }
 .cta{
   display:inline-flex;
@@ -301,55 +319,15 @@ footer{
         </div>
         <div>
           <h2 class="section-title" id="articleSeoTitle">文章 SEO 分析與策略</h2>
-          <p class="section-copy">集中管理文章 H1、Focus Keyword 與內容上架狀態。</p>
+          <p class="section-copy">手動整理待討論文章，集中管理預計上架日期、H1、Focus Keyword 與內容狀態。</p>
         </div>
       </div>
 
       <div class="article-list">
-        <article class="article-card">
-          <div class="article-content">
-            <div class="article-label">文章 H1</div>
-            <h3 class="article-title"><a href="https://kindmade.com.tw/%E7%AB%AF%E5%8D%88%E7%AF%80-esg-%E7%A6%AE%E5%93%81%E6%80%8E%E9%BA%BC%E9%81%B8%EF%BC%9F%E7%B2%BD%E8%91%89%E6%95%99%E6%88%91%E5%80%91%E7%9A%84%E6%B0%B8%E7%BA%8C%E8%A8%AD%E8%A8%88/" target="_blank" rel="noopener noreferrer">端午節 ESG 禮品怎麼選？粽葉教我們的永續設計</a></h3>
-            <div class="keyword"><strong>Focus Keyword</strong><span>端午節 ESG 禮品</span></div>
-          </div>
-          <span class="status status-published">已上架</span>
-        </article>
-
-        <article class="article-card">
-          <div class="article-content">
-            <div class="article-label">文章 H1</div>
-            <h3 class="article-title"><a href="https://kindmade.com.tw/2026%E5%B9%B4%E8%A7%A3%E5%AF%86%EF%BC%9A%E6%B0%B8%E7%BA%8C%E5%92%8C%E4%BC%81%E6%A5%AD%E7%A4%BE%E6%9C%83%E8%B2%AC%E4%BB%BB%EF%BC%88csr%EF%BC%89%E6%9C%89%E4%BB%80%E9%BA%BC%E4%B8%8D%E5%90%8C%EF%BC%9F5/" target="_blank" rel="noopener noreferrer">2026 年解密：永續和企業社會責任（CSR）有什麼不同？5 個關鍵差異解析</a></h3>
-            <div class="keyword"><strong>Focus Keyword</strong><span>ESG CSR 差異</span></div>
-          </div>
-          <span class="status status-published">已上架</span>
-        </article>
-
-        <article class="article-card">
-          <div class="article-content">
-            <div class="article-label">文章 H1</div>
-            <h3 class="article-title"><a href="https://kindmade.com.tw/use-sustainable-gifts/" target="_blank" rel="noopener noreferrer">2026 年在節慶或企業活動中使用永續禮品的最佳做法完整指南：讓禮品更環保、更有意識</a></h3>
-            <div class="keyword"><strong>Focus Keyword</strong><span>永續禮品</span></div>
-          </div>
-          <span class="status status-published">已上架</span>
-        </article>
-
-        <article class="article-card">
-          <div class="article-content">
-            <div class="article-label">文章 H1</div>
-            <h3 class="article-title">企業永續禮品採購指南：從選材、客製到 ESG 報告資料一次掌握</h3>
-            <div class="keyword"><strong>Focus Keyword</strong><span>企業永續禮品</span></div>
-          </div>
-          <span class="status status-draft">草稿待審核</span>
-        </article>
-
-        <article class="article-card">
-          <div class="article-content">
-            <div class="article-label">文章 H1</div>
-            <h3 class="article-title">rPET 禮贈品怎麼選？企業客製、認證與循環價值完整解析</h3>
-            <div class="keyword"><strong>Focus Keyword</strong><span>rPET 禮贈品</span></div>
-          </div>
-          <span class="status status-draft">草稿待審核</span>
-        </article>
+        <div class="empty-state">
+          <h3>尚未選擇文章</h3>
+          <p>文章將由團隊與品牌方確認後手動加入。每張卡片會顯示「預計上架日期：2026-09」格式、文章 H1、Focus Keyword 與上架狀態。</p>
+        </div>
       </div>
     </section>
 
