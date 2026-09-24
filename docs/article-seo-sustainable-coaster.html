@@ -197,6 +197,28 @@ p{margin:0;color:#52616b;line-height:1.8}
 .meta-label{color:var(--green);font-size:13px;font-weight:700}
 .meta-value{color:#52616b;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
 .measure-list{margin:16px 0 0;padding-left:20px;color:#52616b;line-height:1.9}
+.preview-list{
+  display:grid;
+  gap:28px;
+  margin-top:22px;
+}
+.preview-figure{margin:0}
+.preview-figure img{
+  display:block;
+  width:100%;
+  height:auto;
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:8px;
+  box-shadow:0 12px 30px rgba(23,63,53,.08);
+}
+.preview-figure figcaption{
+  margin-top:10px;
+  color:#52616b;
+  font-size:14px;
+  line-height:1.65;
+}
+.preview-figure figcaption strong{color:var(--green)}
 footer{padding:22px 24px;color:#73808a;background:#edf0ec;font-size:13px}
 @media (max-width:760px){
   .hero{padding:26px 18px 34px}
@@ -294,6 +316,21 @@ footer{padding:22px 24px;color:#73808a;background:#edf0ec;font-size:13px}
         <li>文章進站後前往材質頁、杯墊產品頁及 LINE 詢問的點擊比例。</li>
         <li>企業採購或 ESG 贈禮相關詢問是否提及杯墊、材料比較或案例參考。</li>
       </ul>
+    </section>
+
+    <section class="section">
+      <h2>上架後畫面參考</h2>
+      <p>以下為文章正式發布後在官網不同位置的呈現，供品牌方確認封面圖、標題、摘要、日期與分類資訊的實際效果。</p>
+      <div class="preview-list">
+        <figure class="preview-figure">
+          <img src="assets/article-previews/sustainable-coaster-archive-preview.png" alt="永續杯墊文章在官網文章列表中的上架畫面" loading="lazy">
+          <figcaption><strong>文章列表呈現：</strong>封面圖搭配分類、H1 標題、摘要與發布日期的橫式版型。</figcaption>
+        </figure>
+        <figure class="preview-figure">
+          <img src="assets/article-previews/sustainable-coaster-latest-posts-preview.png" alt="永續杯墊文章在官網最新文章區塊中的上架畫面" loading="lazy">
+          <figcaption><strong>首頁最新文章呈現：</strong>文章以首張卡片出現在最新文章區塊，顯示封面、標題、日期、分類與摘要。</figcaption>
+        </figure>
+      </div>
     </section>
   </div>
 </main>
