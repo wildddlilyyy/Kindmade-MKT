@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>永續杯墊文章 SEO 策略｜Kindmade 工作台</title>
+<style>
+:root{
+  --green:#173f35;
+  --green-2:#2f7d5f;
+  --paper:#f6f7f3;
+  --line:#dce5dc;
+  --text:#1f2933;
+  --muted:#64748b;
+  --white:#fff;
+  --soft:#edf5f0;
+  --gold:#8a5a0a;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",Arial,sans-serif;
+  color:var(--text);
+  background:var(--paper);
+}
+a{color:inherit}
+.hero{
+  color:var(--white);
+  background:var(--green);
+  padding:34px 24px 42px;
+}
+.container{
+  width:min(980px,100%);
+  margin:0 auto;
+}
+.back-link{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  margin-bottom:26px;
+  padding:7px 11px;
+  color:var(--white);
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.35);
+  border-radius:6px;
+  font-size:13px;
+  font-weight:700;
+  text-decoration:none;
+}
+.back-link:hover,.back-link:focus-visible{background:rgba(255,255,255,.16);outline:none}
+.eyebrow{
+  margin-bottom:10px;
+  color:#a9d9c6;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+h1{
+  max-width:900px;
+  margin:0;
+  font-size:clamp(29px,4.5vw,46px);
+  line-height:1.3;
+  letter-spacing:0;
+}
+.hero-meta{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:10px 18px;
+  margin-top:22px;
+  color:#d8e9e2;
+  font-size:14px;
+}
+.status{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:6px 10px;
+  color:#dff7ea;
+  background:rgba(115,211,163,.18);
+  border-radius:999px;
+  font-weight:700;
+}
+.status::before{
+  content:"";
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#73d3a3;
+}
+.hero-actions{margin-top:24px}
+.external-link{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  padding:10px 14px;
+  color:var(--green);
+  background:var(--white);
+  border-radius:6px;
+  font-size:14px;
+  font-weight:700;
+  text-decoration:none;
+}
+.external-link:hover,.external-link:focus-visible{background:#edf7f2;outline:none}
+main{padding:38px 24px 64px}
+.summary{
+  padding:22px 24px;
+  background:var(--soft);
+  border-left:4px solid var(--green-2);
+  line-height:1.8;
+}
+.summary strong{color:var(--green)}
+.facts{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:1px;
+  margin:28px 0 42px;
+  background:var(--line);
+  border:1px solid var(--line);
+  border-radius:8px;
+  overflow:hidden;
+}
+.fact{padding:17px;background:var(--white)}
+.fact-label{margin-bottom:7px;color:var(--muted);font-size:12px;font-weight:700}
+.fact-value{color:var(--green);font-size:15px;font-weight:700;line-height:1.5}
+.section{
+  padding:32px 0;
+  border-top:1px solid var(--line);
+}
+.section:first-of-type{border-top:0}
+h2{margin:0 0 16px;color:var(--green);font-size:25px;line-height:1.35}
+h3{margin:0 0 7px;color:var(--green);font-size:17px;line-height:1.5}
+p{margin:0;color:#52616b;line-height:1.8}
+.reason-list{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:24px 32px;
+  margin-top:24px;
+}
+.reason{padding-left:16px;border-left:3px solid #b9d6c9}
+.keyword-table{
+  width:100%;
+  margin-top:20px;
+  border-collapse:collapse;
+  background:var(--white);
+  border:1px solid var(--line);
+  font-size:14px;
+}
+.keyword-table th,.keyword-table td{
+  padding:14px 16px;
+  border-bottom:1px solid var(--line);
+  text-align:left;
+  vertical-align:top;
+  line-height:1.65;
+}
+.keyword-table th{color:var(--green);background:#eef5f1;font-size:13px}
+.keyword-table tr:last-child td{border-bottom:0}
+.keyword-table td:first-child{width:140px;color:var(--green);font-weight:700}
+.content-flow{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  margin-top:22px;
+}
+.flow-item{
+  padding:17px;
+  background:var(--white);
+  border:1px solid var(--line);
+  border-radius:8px;
+}
+.flow-number{
+  display:grid;
+  place-items:center;
+  width:28px;
+  height:28px;
+  margin-bottom:12px;
+  color:var(--white);
+  background:var(--green-2);
+  border-radius:50%;
+  font-size:12px;
+  font-weight:700;
+}
+.meta-block{
+  display:grid;
+  gap:14px;
+  margin-top:20px;
+}
+.meta-row{
+  display:grid;
+  grid-template-columns:150px minmax(0,1fr);
+  gap:18px;
+  padding:15px 0;
+  border-bottom:1px solid var(--line);
+}
+.meta-row:last-child{border-bottom:0}
+.meta-label{color:var(--green);font-size:13px;font-weight:700}
+.meta-value{color:#52616b;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+.measure-list{margin:16px 0 0;padding-left:20px;color:#52616b;line-height:1.9}
+footer{padding:22px 24px;color:#73808a;background:#edf0ec;font-size:13px}
+@media (max-width:760px){
+  .hero{padding:26px 18px 34px}
+  main{padding:28px 18px 48px}
+  .facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reason-list,.content-flow{grid-template-columns:1fr}
+  .keyword-table{display:block;overflow-x:auto;white-space:normal}
+  .meta-row{grid-template-columns:1fr;gap:5px}
+}
+@media (max-width:420px){.facts{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="container">
+    <a class="back-link" href="index.html">← 回首頁工作台</a>
+    <div class="eyebrow">Article SEO Strategy</div>
+    <h1>永續杯墊推薦：台灣證交所案例，用咖啡渣、茶葉渣與軟木打造企業 ESG 贈禮</h1>
+    <div class="hero-meta">
+      <span>預計上架日期：2026-09</span>
+      <span class="status">已上架</span>
+      <span>Focus Keyword：永續杯墊</span>
+    </div>
+    <div class="hero-actions">
+      <a class="external-link" href="https://kindmade.com.tw/sustainable-coaster-taiwan-stock-exchange/" target="_blank" rel="noopener noreferrer">查看正式文章 ↗</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <div class="summary"><strong>策略摘要：</strong>以台灣證交所的實際客製案例建立企業採購信任，並透過咖啡渣、茶葉渣與軟木的材質比較，承接「永續杯墊」相關的產品探索、材質比較與企業客製搜尋需求，最後導向 Kindmade 的永續禮品規劃服務。</div>
+
+    <div class="facts" aria-label="文章策略重點">
+      <div class="fact"><div class="fact-label">主要關鍵字</div><div class="fact-value">永續杯墊</div></div>
+      <div class="fact"><div class="fact-label">搜尋意圖</div><div class="fact-value">產品探索＋材質比較</div></div>
+      <div class="fact"><div class="fact-label">主要受眾</div><div class="fact-value">企業採購與 ESG 團隊</div></div>
+      <div class="fact"><div class="fact-label">內容角色</div><div class="fact-value">案例證明＋詢價導流</div></div>
+    </div>
+
+    <section class="section">
+      <h2>為什麼寫這篇文章</h2>
+      <p>這篇文章不是只記錄一個完成案例，而是把企業採購者真正會問的問題，整理成可以被搜尋、比較與採取行動的內容。</p>
+      <div class="reason-list">
+        <div class="reason"><h3>承接具體產品需求</h3><p>搜尋「永續杯墊」的人通常已經在找產品、材質或客製方案，距離採購決策比一般永續知識型搜尋更近。</p></div>
+        <div class="reason"><h3>建立企業案例可信度</h3><p>以台灣證交所實際應用為主軸，讓企業客戶看見永續材質如何落地於正式、具代表性的貴賓贈禮情境。</p></div>
+        <div class="reason"><h3>擴大材質關鍵字入口</h3><p>同時說明咖啡渣、茶葉渣與軟木，可承接不同材料名稱的搜尋，也能串連 Kindmade 的永續材質內容群。</p></div>
+        <div class="reason"><h3>把流量導向商業詢問</h3><p>文章從案例、材質比較、規劃重點一路走到客製服務與 FAQ，讓讀者能自然進入詢價或進一步了解產品。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>預期搜尋關鍵字</h2>
+      <p>關鍵字以「永續杯墊」為核心，再向材質、客製與企業贈禮情境延伸，避免只依賴單一詞組。</p>
+      <table class="keyword-table">
+        <thead><tr><th>關鍵字層級</th><th>預期關鍵字</th><th>搜尋者需求</th></tr></thead>
+        <tbody>
+          <tr><td>主要關鍵字</td><td>永續杯墊</td><td>尋找符合永續概念的杯墊產品、材質或供應商。</td></tr>
+          <tr><td>次要關鍵字</td><td>環保杯墊、咖啡渣杯墊、茶葉渣杯墊、軟木杯墊</td><td>比較不同環保材料的特色、外觀與使用情境。</td></tr>
+          <tr><td>商業關鍵字</td><td>永續杯墊客製、環保杯墊客製、企業 ESG 贈禮、企業永續禮品</td><td>尋找可承接企業設計、生產與採購需求的合作廠商。</td></tr>
+          <tr><td>長尾關鍵字</td><td>永續杯墊推薦、環保杯墊材質、咖啡渣杯墊客製、企業貴賓贈禮 ESG</td><td>帶著較明確條件進行評估，具有較高的詢問與轉換可能。</td></tr>
+          <tr><td>品牌案例詞</td><td>台灣證交所永續杯墊、台灣證交所 ESG 贈禮</td><td>查找案例背景、合作成果或相似專案參考。</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>內容如何支援搜尋與轉換</h2>
+      <div class="content-flow">
+        <div class="flow-item"><div class="flow-number">1</div><h3>案例吸引</h3><p>用台灣證交所與保育動物設計建立辨識度，讓讀者快速理解產品完成後的樣貌與使用場合。</p></div>
+        <div class="flow-item"><div class="flow-number">2</div><h3>材質比較</h3><p>回答咖啡渣、茶葉渣、軟木的來源、質感與適用情境，滿足採購前的比較需求。</p></div>
+        <div class="flow-item"><div class="flow-number">3</div><h3>採購考量</h3><p>整理厚度、觸感、吸水性、圖像與 Logo 等實務項目，降低企業規劃永續贈禮時的不確定性。</p></div>
+        <div class="flow-item"><div class="flow-number">4</div><h3>服務承接</h3><p>說明 Kindmade 如何協助選材、設計與包裝，把內容閱讀自然銜接到服務能力。</p></div>
+        <div class="flow-item"><div class="flow-number">5</div><h3>FAQ 補強</h3><p>回應氣味、耐用、包裝與 MOQ 等常見疑問，同時增加長尾問句被搜尋與 AI 摘要引用的機會。</p></div>
+        <div class="flow-item"><div class="flow-number">6</div><h3>行動轉換</h3><p>以 LINE 詢問、材質介紹與杯墊產品作為下一步，承接不同準備程度的企業訪客。</p></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>目前頁面 SEO 設定</h2>
+      <div class="meta-block">
+        <div class="meta-row"><div class="meta-label">SEO Title</div><div class="meta-value">永續杯墊推薦：台灣證交所案例，用咖啡渣、茶葉渣與軟木打造企業 ESG 贈禮</div></div>
+        <div class="meta-row"><div class="meta-label">Meta Description</div><div class="meta-value">永續杯墊怎麼挑材質？以台灣證交所客製案例說明咖啡渣、茶葉渣、軟木三種永續材質的差異，結合石虎、台灣黑熊、梅花鹿設計，打造兼具 ESG 意義與質感的企業貴賓贈禮。</div></div>
+        <div class="meta-row"><div class="meta-label">H1</div><div class="meta-value">永續杯墊推薦：台灣證交所案例，用咖啡渣、茶葉渣與軟木打造企業 ESG 贈禮</div></div>
+        <div class="meta-row"><div class="meta-label">正式網址</div><div class="meta-value">https://kindmade.com.tw/sustainable-coaster-taiwan-stock-exchange/</div></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>後續觀察指標</h2>
+      <p>文章上架後可用 Google Search Console 與網站轉換資料觀察以下訊號：</p>
+      <ul class="measure-list">
+        <li>「永續杯墊」及材質相關關鍵字的曝光、點擊與平均排名。</li>
+        <li>長尾詞是否開始出現，例如「咖啡渣杯墊客製」與「環保杯墊材質」。</li>
+        <li>文章進站後前往材質頁、杯墊產品頁及 LINE 詢問的點擊比例。</li>
+        <li>企業採購或 ESG 贈禮相關詢問是否提及杯墊、材料比較或案例參考。</li>
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer><div class="container">Kindmade Article SEO Strategy｜Last updated: 2026-09-24</div></footer>
+</body>
+</html>

@@ -160,6 +160,16 @@ h1{
   background:#fbfcfa;
   border:1px solid #e3e9e3;
   border-radius:8px;
+  color:inherit;
+  text-decoration:none;
+  transition:border-color .18s ease,transform .18s ease,box-shadow .18s ease;
+}
+.article-card:hover,
+.article-card:focus-visible{
+  transform:translateY(-2px);
+  border-color:var(--green-2);
+  box-shadow:0 12px 28px rgba(23,63,53,.09);
+  outline:none;
 }
 .article-content{
   min-width:0;
@@ -324,10 +334,14 @@ footer{
       </div>
 
       <div class="article-list">
-        <div class="empty-state">
-          <h3>尚未選擇文章</h3>
-          <p>文章將由團隊與品牌方確認後手動加入。每張卡片會顯示「預計上架日期：2026-09」格式、文章 H1、Focus Keyword 與上架狀態。</p>
-        </div>
+        <a class="article-card" href="article-seo-sustainable-coaster.html">
+          <div class="article-content">
+            <div class="publish-date">預計上架日期：2026-09</div>
+            <h3 class="article-title">永續杯墊推薦：台灣證交所案例，用咖啡渣、茶葉渣與軟木打造企業 ESG 贈禮</h3>
+            <div class="keyword"><strong>Focus Keyword</strong><span>永續杯墊</span></div>
+          </div>
+          <span class="status status-published">已上架</span>
+        </a>
       </div>
     </section>
 
