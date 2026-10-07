@@ -2,6 +2,16 @@
 
 Kindmade MKT Dashboard 是一個整合行銷日曆與 SEO 報告的 GitHub Pages 專案。它包含 Python SEO 爬蟲與報告產生工具，可用來檢查同網域頁面的基礎 SEO 狀態，輸出 CSV、HTML dashboard，以及可部署到 GitHub Pages 的靜態報告資料。
 
+## GSC 每月搜尋成效（第一版）
+
+開啟 `docs/gsc-report.html` 即可在本機使用，或執行 `python -m http.server 8765 --bind 127.0.0.1 --directory docs` 後瀏覽 `http://127.0.0.1:8765/gsc-report.html`。工作台首頁亦已加入入口。
+
+功能：四張月份指標卡、1～8 月列表、上月比較、裝置明細、原始月報連結與 UTF-8 CSV 匯出。資料為 2026-10-07 從指定 Drive 資料夾讀取的快照，保存在 `docs/gsc-data.js`；尚未自動同步。1～6 月每日點擊與曝光加總，排名按每日曝光加權估算；7～8 月使用月報排名。所有月份 CTR 由總點擊除以總曝光計算。
+
+驗證：在專案目錄執行 `node scripts/check_gsc.cjs`。
+
+每月另提供熱門查詢關鍵字與熱門網頁各前 10 筆，來自月報「查詢」「網頁」分頁全部已匯出資料，依點擊數、曝光數遞減排序。網頁可點選開啟，名稱使用網址路徑，未推測網頁標題。兩份排行獨立呈現，不代表關鍵字與網頁的配對，且僅涵蓋 Google 自然搜尋。
+
 ## 專案內容
 
 - `seo_crawler/`：核心爬蟲、頁面分析、CSV 匯出與單頁 HTML dashboard。
