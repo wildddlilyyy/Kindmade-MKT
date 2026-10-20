@@ -1,5 +1,5 @@
 window.GSC_DATA = {
-  "updated": "2026-10-07",
+  "updated": "2026-10-20",
   "months": [
     {
       "month": "2026-01",
@@ -1414,6 +1414,184 @@ window.GSC_DATA = {
           "impressions": 207,
           "ctr": 2.9,
           "position": 7.57
+        }
+      ]
+    },
+    {
+      "month": "2026-09",
+      "clicks": 417,
+      "impressions": 18307,
+      "ctr": 2.277817228382586,
+      "position": 7.2683072048943025,
+      "estimated": true,
+      "days": 30,
+      "source": "gsc-september-source.json",
+      "sourceLabel": "匯入資料",
+      "devices": [
+        {
+          "name": "桌面",
+          "clicks": 261,
+          "impressions": 10257,
+          "ctr": 2.54,
+          "position": 7.74
+        },
+        {
+          "name": "行動裝置",
+          "clicks": 155,
+          "impressions": 7865,
+          "ctr": 1.97,
+          "position": 6.67
+        },
+        {
+          "name": "平板電腦",
+          "clicks": 1,
+          "impressions": 185,
+          "ctr": 0.54,
+          "position": 6.77
+        }
+      ],
+      "queries": [
+        {
+          "name": "種子紙",
+          "clicks": 29,
+          "impressions": 295,
+          "ctr": 9.83,
+          "position": 2.99
+        },
+        {
+          "name": "善良kindmade",
+          "clicks": 12,
+          "impressions": 16,
+          "ctr": 75.0,
+          "position": 1.0
+        },
+        {
+          "name": "鳳梨皮革",
+          "clicks": 8,
+          "impressions": 136,
+          "ctr": 5.88,
+          "position": 3.38
+        },
+        {
+          "name": "杜邦紙",
+          "clicks": 7,
+          "impressions": 802,
+          "ctr": 0.8699999999999999,
+          "position": 7.2
+        },
+        {
+          "name": "咖啡渣杯墊",
+          "clicks": 7,
+          "impressions": 19,
+          "ctr": 36.84,
+          "position": 2.79
+        },
+        {
+          "name": "永續禮品",
+          "clicks": 5,
+          "impressions": 32,
+          "ctr": 15.620000000000001,
+          "position": 1.91
+        },
+        {
+          "name": "仙人掌皮革",
+          "clicks": 4,
+          "impressions": 47,
+          "ctr": 8.51,
+          "position": 4.13
+        },
+        {
+          "name": "椰殼碗",
+          "clicks": 4,
+          "impressions": 25,
+          "ctr": 16.0,
+          "position": 2.04
+        },
+        {
+          "name": "grs",
+          "clicks": 3,
+          "impressions": 622,
+          "ctr": 0.48,
+          "position": 6.63
+        },
+        {
+          "name": "稻殼",
+          "clicks": 2,
+          "impressions": 161,
+          "ctr": 1.24,
+          "position": 7.66
+        }
+      ],
+      "pages": [
+        {
+          "name": "https://kindmade.com.tw/",
+          "clicks": 73,
+          "impressions": 964,
+          "ctr": 7.57,
+          "position": 7.93
+        },
+        {
+          "name": "https://kindmade.com.tw/material/seed-paper/",
+          "clicks": 72,
+          "impressions": 1062,
+          "ctr": 6.78,
+          "position": 4.68
+        },
+        {
+          "name": "https://kindmade.com.tw/material/tyvek/",
+          "clicks": 27,
+          "impressions": 1999,
+          "ctr": 1.35,
+          "position": 5.98
+        },
+        {
+          "name": "https://kindmade.com.tw/material/pineapple-leather/",
+          "clicks": 13,
+          "impressions": 747,
+          "ctr": 1.7399999999999998,
+          "position": 4.93
+        },
+        {
+          "name": "https://kindmade.com.tw/material/teafiber/",
+          "clicks": 13,
+          "impressions": 462,
+          "ctr": 2.81,
+          "position": 7.73
+        },
+        {
+          "name": "https://kindmade.com.tw/grs-certification/",
+          "clicks": 9,
+          "impressions": 1784,
+          "ctr": 0.5,
+          "position": 7.11
+        },
+        {
+          "name": "https://kindmade.com.tw/sustainable-materials-lab/seed-paper/",
+          "clicks": 9,
+          "impressions": 91,
+          "ctr": 9.89,
+          "position": 7.3
+        },
+        {
+          "name": "https://kindmade.com.tw/product/咖啡渣-茶葉渣-紅茶渣-軟木杯墊/",
+          "clicks": 9,
+          "impressions": 79,
+          "ctr": 11.39,
+          "position": 4.34
+        },
+        {
+          "name": "https://kindmade.com.tw/material/ricehusk/",
+          "clicks": 8,
+          "impressions": 558,
+          "ctr": 1.43,
+          "position": 6.56
+        },
+        {
+          "name": "https://kindmade.com.tw/product/椰子殼碗/",
+          "clicks": 8,
+          "impressions": 275,
+          "ctr": 2.91,
+          "position": 4.37
         }
       ]
     }
