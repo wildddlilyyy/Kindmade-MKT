@@ -1,5 +1,5 @@
 window.GSC_DATA = {
-  "updated": "2026-10-20",
+  "updated": "2026-11-03",
   "months": [
     {
       "month": "2026-01",
@@ -1592,6 +1592,184 @@ window.GSC_DATA = {
           "impressions": 275,
           "ctr": 2.91,
           "position": 4.37
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "clicks": 563,
+      "impressions": 22766,
+      "ctr": 2.4729860318018098,
+      "position": 7.333567600808223,
+      "estimated": false,
+      "days": 31,
+      "source": "gsc-october-source.json",
+      "sourceLabel": "GSC 同步資料",
+      "devices": [
+        {
+          "name": "桌面",
+          "clicks": 358,
+          "impressions": 12023,
+          "ctr": 2.9776262164185314,
+          "position": 7.51235132662397
+        },
+        {
+          "name": "行動裝置",
+          "clicks": 201,
+          "impressions": 10431,
+          "ctr": 1.926948518838079,
+          "position": 7.120314447320487
+        },
+        {
+          "name": "平板電腦",
+          "clicks": 4,
+          "impressions": 312,
+          "ctr": 1.282051282051282,
+          "position": 7.573717948717949
+        }
+      ],
+      "queries": [
+        {
+          "name": "善良kindmade",
+          "clicks": 20,
+          "impressions": 37,
+          "ctr": 54.054054054054056,
+          "position": 1.027027027027027
+        },
+        {
+          "name": "種子紙",
+          "clicks": 19,
+          "impressions": 269,
+          "ctr": 7.063197026022305,
+          "position": 2.386617100371747
+        },
+        {
+          "name": "kindmade",
+          "clicks": 16,
+          "impressions": 33,
+          "ctr": 48.484848484848484,
+          "position": 1.5454545454545454
+        },
+        {
+          "name": "善良 kindmade",
+          "clicks": 8,
+          "impressions": 14,
+          "ctr": 57.14285714285714,
+          "position": 1
+        },
+        {
+          "name": "杜邦紙",
+          "clicks": 7,
+          "impressions": 706,
+          "ctr": 0.9915014164305949,
+          "position": 7.254957507082153
+        },
+        {
+          "name": "善良",
+          "clicks": 7,
+          "impressions": 662,
+          "ctr": 1.0574018126888218,
+          "position": 9.358006042296072
+        },
+        {
+          "name": "永續禮品",
+          "clicks": 7,
+          "impressions": 27,
+          "ctr": 25.925925925925924,
+          "position": 1.6296296296296298
+        },
+        {
+          "name": "種子紙是什麼",
+          "clicks": 5,
+          "impressions": 63,
+          "ctr": 7.936507936507936,
+          "position": 2.4444444444444446
+        },
+        {
+          "name": "水洗牛皮紙",
+          "clicks": 4,
+          "impressions": 74,
+          "ctr": 5.405405405405405,
+          "position": 7.918918918918919
+        },
+        {
+          "name": "咖啡渣杯墊",
+          "clicks": 4,
+          "impressions": 25,
+          "ctr": 16.0,
+          "position": 3.16
+        }
+      ],
+      "pages": [
+        {
+          "name": "https://kindmade.com.tw/",
+          "clicks": 159,
+          "impressions": 2401,
+          "ctr": 6.622240733027905,
+          "position": 7.283631820074969
+        },
+        {
+          "name": "https://kindmade.com.tw/material/seed-paper/",
+          "clicks": 46,
+          "impressions": 983,
+          "ctr": 4.679552390640895,
+          "position": 4.130213631739572
+        },
+        {
+          "name": "https://kindmade.com.tw/material/tyvek/",
+          "clicks": 22,
+          "impressions": 1883,
+          "ctr": 1.168348380244291,
+          "position": 5.984067976633033
+        },
+        {
+          "name": "https://kindmade.com.tw/material/teafiber/",
+          "clicks": 20,
+          "impressions": 619,
+          "ctr": 3.231017770597738,
+          "position": 7.702746365105008
+        },
+        {
+          "name": "https://kindmade.com.tw/material/ricehusk/",
+          "clicks": 14,
+          "impressions": 1063,
+          "ctr": 1.317027281279398,
+          "position": 7.078080903104421
+        },
+        {
+          "name": "https://kindmade.com.tw/sustainable-materials-lab/seed-paper/",
+          "clicks": 12,
+          "impressions": 189,
+          "ctr": 6.349206349206349,
+          "position": 6.243386243386244
+        },
+        {
+          "name": "https://kindmade.com.tw/product-category/all/coffeefiber/",
+          "clicks": 12,
+          "impressions": 105,
+          "ctr": 11.428571428571429,
+          "position": 5.352380952380952
+        },
+        {
+          "name": "https://kindmade.com.tw/csr%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F%E4%BC%81%E6%A5%AD%E7%A4%BE%E6%9C%83%E8%B2%AC%E4%BB%BB%E7%9A%84%E6%A0%B8%E5%BF%83%E8%88%87%E6%9C%80%E6%96%B0%E6%A1%88%E4%BE%8B%E8%A7%A3%E6%9E%90/",
+          "clicks": 11,
+          "impressions": 4014,
+          "ctr": 0.27404085700049824,
+          "position": 9.378176382660687
+        },
+        {
+          "name": "https://kindmade.com.tw/tyvek-reusable-bag/",
+          "clicks": 11,
+          "impressions": 642,
+          "ctr": 1.7133956386292832,
+          "position": 5.686915887850467
+        },
+        {
+          "name": "https://kindmade.com.tw/grs-certification/",
+          "clicks": 9,
+          "impressions": 1728,
+          "ctr": 0.5208333333333333,
+          "position": 7.032407407407407
         }
       ]
     }

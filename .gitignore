@@ -5,6 +5,7 @@ __pycache__/
 *.py[cod]
 
 output/*.csv
+output/gsc-*-api.json
 !output/.gitkeep
 !output/seo_full_audit_report.html
 !output/seo_full_audit_report.md
